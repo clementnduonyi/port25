@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function BlogCard(){
     return(
         <div className="container mx-auto px-6">
@@ -5,7 +7,7 @@ export default function BlogCard(){
             <div className="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
               {/* Example Blog */}
                 <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                    <img
+                    <Image
                     src="https://example.com/blog1.jpg"
                     alt="How I Built My Portfolio"
                     className="rounded-t-lg object-cover h-48 w-full"
