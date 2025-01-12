@@ -1,5 +1,12 @@
-export default function Project(){
-    return(
-        <h1>Projects...</h1>
-    )
+
+
+import ProjectCard from '@/app/ui/project/project-card'
+
+
+export default function ProjectsPage(){
+  return(
+    <ProjectCard />
+  )
+
 }
+

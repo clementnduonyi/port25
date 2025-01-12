@@ -1,7 +1,6 @@
 
 import Head from "next/head";
 import Link from 'next/link'
-import Navbar from '@/app/ui/navbar';
 import BlogCard from '@/app/ui/blog/blog-card';
 import ProjectCard from '@/app/ui/project/project-card';
 import Contact from "./ui/contact";
@@ -18,10 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Navbar */}
-      <nav className="bg-white shadow sticky top-0 z-50">
-        <Navbar />
-      </nav>
       
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-blue-600 to-teal-500 text-white">

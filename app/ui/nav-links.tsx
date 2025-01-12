@@ -8,8 +8,8 @@ import clsx from 'clsx';
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: 'About', href: '/about'},
-  {name: 'Project', href: '/projects'},
-  { name: 'Blogs', href: '/blogs'},
+  {name: 'Project', href: '/project'},
+  { name: 'Blog', href: '/blogs'},
 ];
 
 type NavlinksProps = {
