@@ -4,13 +4,7 @@ import Link from 'next/link';
 import { Carousel } from 'antd';
 import fetchProjects from '@/app/lib/data';
 
-interface Project {
-    _id: string;
-    title: string;
-    description: string;
-    imageUrl?: string;
-    technologies: string[];
-}
+
 
 export default async function ProjectCard() {
   const projects = await fetchProjects();
